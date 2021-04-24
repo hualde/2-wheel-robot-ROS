@@ -1,0 +1,7 @@
+source /opt/ros/noetic/setup.bash
+. ~/catkin_ws/devel/setup.bash
+
+catkin_create_pkg  mi_robot roscpp
+
+
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py cmd_vel:=mi_robot_velocity_controller/cmd_vel

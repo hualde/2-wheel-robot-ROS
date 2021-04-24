@@ -1,0 +1,2 @@
+m2wr_description/m2wr_description:m2wr_description/my_worlds:m2wr_description/two-wheeled-robot-motion-planning
+-DCATKIN_DEVEL_PREFIX=/home/hualde/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hualde/catkin_ws/install -G Unix Makefiles

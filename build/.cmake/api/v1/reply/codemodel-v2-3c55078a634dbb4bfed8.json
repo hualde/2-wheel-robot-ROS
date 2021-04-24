@@ -1,0 +1,576 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						18,
+						34
+					]
+				},
+				{
+					"build" : "gtest",
+					"childIndexes" : 
+					[
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/usr/src/googletest"
+				},
+				{
+					"build" : "gtest/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/usr/src/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "gtest/googletest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "/usr/src/googletest/googletest",
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"build" : "m2wr_description/m2wr_description",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "m2wr_description/m2wr_description",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "m2wr_description/my_worlds",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "m2wr_description/my_worlds"
+				},
+				{
+					"build" : "m2wr_description/two-wheeled-robot-motion-planning",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "m2wr_description/two-wheeled-robot-motion-planning",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						35,
+						36,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						18,
+						34
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "m2wr_description",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "my_worlds",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "motion_plan",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						35,
+						36,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "_catkin_empty_exported_target::@906361d5a0f9dea0b8b5",
+					"jsonFile" : "target-_catkin_empty_exported_target-86807ee799fc145d19b4.json",
+					"name" : "_catkin_empty_exported_target",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_test_results::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_test_results-f26dbd36358b5ea22c56.json",
+					"name" : "clean_test_results",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "download_extra_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-download_extra_data-26d419a6bf2b582c2a72.json",
+					"name" : "download_extra_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doxygen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doxygen-88595cbda2a15872d775.json",
+					"name" : "doxygen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gazebo_msgs_generate_messages_cpp::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-gazebo_msgs_generate_messages_cpp-9352a0b3ae1bb1689c43.json",
+					"name" : "gazebo_msgs_generate_messages_cpp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gazebo_msgs_generate_messages_eus::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-gazebo_msgs_generate_messages_eus-c5dfa19c33850da6ebab.json",
+					"name" : "gazebo_msgs_generate_messages_eus",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gazebo_msgs_generate_messages_lisp::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-gazebo_msgs_generate_messages_lisp-a22d3e80004141631d4c.json",
+					"name" : "gazebo_msgs_generate_messages_lisp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gazebo_msgs_generate_messages_nodejs::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-gazebo_msgs_generate_messages_nodejs-7e8ec8cdfe07860bd54f.json",
+					"name" : "gazebo_msgs_generate_messages_nodejs",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gazebo_msgs_generate_messages_py::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-gazebo_msgs_generate_messages_py-e8c825caa1da1289e8c1.json",
+					"name" : "gazebo_msgs_generate_messages_py",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "geometry_msgs_generate_messages_cpp::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-geometry_msgs_generate_messages_cpp-4d97846be683cd0e1417.json",
+					"name" : "geometry_msgs_generate_messages_cpp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "geometry_msgs_generate_messages_eus::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-geometry_msgs_generate_messages_eus-27c7caee92fac82b8dcf.json",
+					"name" : "geometry_msgs_generate_messages_eus",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "geometry_msgs_generate_messages_lisp::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-geometry_msgs_generate_messages_lisp-e9401a3c491b396df7e3.json",
+					"name" : "geometry_msgs_generate_messages_lisp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "geometry_msgs_generate_messages_nodejs::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-geometry_msgs_generate_messages_nodejs-ac9a17085eef33cdf9b4.json",
+					"name" : "geometry_msgs_generate_messages_nodejs",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "geometry_msgs_generate_messages_py::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-geometry_msgs_generate_messages_py-f3607c43539d26186e74.json",
+					"name" : "geometry_msgs_generate_messages_py",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@e3f94eedc5dc07131386",
+					"jsonFile" : "target-gmock-4b31611720a1703ed79c.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@e3f94eedc5dc07131386",
+					"jsonFile" : "target-gmock_main-84825a3290a9b748915a.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@b738d542747fbb7ea6e3",
+					"jsonFile" : "target-gtest-c76362e8f8f93495db74.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@b738d542747fbb7ea6e3",
+					"jsonFile" : "target-gtest_main-992fb31b2969f983d77d.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_tests-8df51f7a33fa18f9de57.json",
+					"name" : "run_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sensor_msgs_generate_messages_cpp::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-sensor_msgs_generate_messages_cpp-7fec732eb00567ea5316.json",
+					"name" : "sensor_msgs_generate_messages_cpp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sensor_msgs_generate_messages_eus::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-sensor_msgs_generate_messages_eus-7085542b596c688407c5.json",
+					"name" : "sensor_msgs_generate_messages_eus",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sensor_msgs_generate_messages_lisp::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-sensor_msgs_generate_messages_lisp-d10eed27f4199ba71fef.json",
+					"name" : "sensor_msgs_generate_messages_lisp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sensor_msgs_generate_messages_nodejs::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-sensor_msgs_generate_messages_nodejs-0e24c3e5d4f85c3c6612.json",
+					"name" : "sensor_msgs_generate_messages_nodejs",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sensor_msgs_generate_messages_py::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-sensor_msgs_generate_messages_py-a18193e633b07f9b0cff.json",
+					"name" : "sensor_msgs_generate_messages_py",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "std_msgs_generate_messages_cpp::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-std_msgs_generate_messages_cpp-8f7ecbeb7cbcc777fe8d.json",
+					"name" : "std_msgs_generate_messages_cpp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "std_msgs_generate_messages_eus::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-std_msgs_generate_messages_eus-d38db7d38bdda72156d0.json",
+					"name" : "std_msgs_generate_messages_eus",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "std_msgs_generate_messages_lisp::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-std_msgs_generate_messages_lisp-2f234e38383551d5428d.json",
+					"name" : "std_msgs_generate_messages_lisp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "std_msgs_generate_messages_nodejs::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-std_msgs_generate_messages_nodejs-14ec256e29e8ad6c853d.json",
+					"name" : "std_msgs_generate_messages_nodejs",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "std_msgs_generate_messages_py::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-std_msgs_generate_messages_py-7c08e45acbdc761f2a83.json",
+					"name" : "std_msgs_generate_messages_py",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "std_srvs_generate_messages_cpp::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-std_srvs_generate_messages_cpp-31cc2a4c3c8e14d467b3.json",
+					"name" : "std_srvs_generate_messages_cpp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "std_srvs_generate_messages_eus::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-std_srvs_generate_messages_eus-4f33d5887ac8e01363ae.json",
+					"name" : "std_srvs_generate_messages_eus",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "std_srvs_generate_messages_lisp::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-std_srvs_generate_messages_lisp-b6756eaef994608bba52.json",
+					"name" : "std_srvs_generate_messages_lisp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "std_srvs_generate_messages_nodejs::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-std_srvs_generate_messages_nodejs-12e78f8848f694ebd62f.json",
+					"name" : "std_srvs_generate_messages_nodejs",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "std_srvs_generate_messages_py::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-std_srvs_generate_messages_py-4f96abcc4fc0ec56b262.json",
+					"name" : "std_srvs_generate_messages_py",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tests-645674a8b6faee116c67.json",
+					"name" : "tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "trajectory_msgs_generate_messages_cpp::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-trajectory_msgs_generate_messages_cpp-a3dc0caa692e4830a2da.json",
+					"name" : "trajectory_msgs_generate_messages_cpp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "trajectory_msgs_generate_messages_eus::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-trajectory_msgs_generate_messages_eus-ea24a4be902db3e6fba7.json",
+					"name" : "trajectory_msgs_generate_messages_eus",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "trajectory_msgs_generate_messages_lisp::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-trajectory_msgs_generate_messages_lisp-5c9ef293bcda398872e3.json",
+					"name" : "trajectory_msgs_generate_messages_lisp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "trajectory_msgs_generate_messages_nodejs::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-trajectory_msgs_generate_messages_nodejs-856f1daaf9b936c50bfe.json",
+					"name" : "trajectory_msgs_generate_messages_nodejs",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "trajectory_msgs_generate_messages_py::@39a1765f14d74f68dd28",
+					"jsonFile" : "target-trajectory_msgs_generate_messages_py-5d66f1dcedb101632b8e.json",
+					"name" : "trajectory_msgs_generate_messages_py",
+					"projectIndex" : 6
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hualde/catkin_ws/build",
+		"source" : "/home/hualde/catkin_ws/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
